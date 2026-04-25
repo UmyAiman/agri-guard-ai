@@ -1,0 +1,8 @@
+{
+  "erysiphaceae": { "commonName": "Powdery Mildew", "type": "fungal" },
+  "puccinia": { "commonName": "Rust Disease", "type": "fungal" },
+  "phytophthora infestans": { "commonName": "Late Blight", "type": "fungal" },
+  "alternaria solani": { "commonName": "Early Blight", "type": "fungal" },
+  "venturia inaequalis": { "commonName": "Apple Scab", "type": "fungal" },
+  "plasmopara viticola": { "commonName": "Downy Mildew", "type": "fungal" }
+}
