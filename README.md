@@ -1,8 +1,6 @@
-AgriGuard AI Frming Asisstant
-Overview
+AgriGuard AI Farming Asisstant
 
 AgriGuard AI is a full-stack AI-powered web application designed to assist farmers in detecting plant diseases using image analysis and intelligent AI systems. The platform combines computer vision APIs and large language models to provide disease identification, verified agricultural knowledge, and treatment recommendations in real time.
-
 The system is designed as a smart agricultural assistant that works as a 24/7 AI plant doctor.
 
 Problem Statement
