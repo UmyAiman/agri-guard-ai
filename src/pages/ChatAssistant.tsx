@@ -20,8 +20,6 @@ const initialMessages: Message[] = [
 
 const conversations = [
   { id: 1, title: "Tomato Blight Help", date: "Today" },
-  { id: 2, title: "Rice Pest Question", date: "Yesterday" },
-  { id: 3, title: "Wheat Care Guide", date: "Feb 18" },
 ];
 
 const ChatAssistant = () => {
@@ -140,9 +138,6 @@ const ChatAssistant = () => {
           {/* Input */}
           <div className="glass-strong border-t border-border/30 p-4">
             <div className="flex items-center gap-3 max-w-4xl mx-auto">
-              <button className="w-10 h-10 rounded-xl glass flex items-center justify-center text-muted-foreground hover:text-primary hover-neon shrink-0">
-                <Mic className="w-4 h-4" />
-              </button>
               <input
                 value={input}
                 onChange={(e) => setInput(e.target.value)}

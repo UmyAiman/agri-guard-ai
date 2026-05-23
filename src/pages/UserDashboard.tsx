@@ -10,8 +10,7 @@ import { format } from "date-fns";
 
 const quickActions = [
   { icon: Camera, title: "Detect via Image", desc: "Upload or capture a plant photo", to: "/detect?tab=image", color: "text-primary" },
-  { icon: Mic, title: "Detect via Voice", desc: "Describe symptoms using voice", to: "/detect?tab=voice", color: "text-sky" },
-  { icon: FileText, title: "Detect via Text", desc: "Type symptoms manually", to: "/detect?tab=text", color: "text-gold" },
+  { icon: FileText, title: "AI Chat Assistant", desc: "Talk with AI about symptoms", to: "/chat", color: "text-gold" },
 ];
 
 const UserDashboard = () => {
@@ -44,7 +43,7 @@ const UserDashboard = () => {
         </motion.div>
 
         {/* Quick Actions */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
           {quickActions.map((action, i) => (
             <motion.div
               key={action.title}

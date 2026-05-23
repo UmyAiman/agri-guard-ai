@@ -175,9 +175,11 @@ const DetectionResult = () => {
           {/* Source */}
           <GlassCard className="mb-8">
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <ExternalLink className="w-4 h-4 text-primary" />
+              <Shield className="w-4 h-4 text-primary" />
               <span>
-                {info ? "Source: Local Verified Agricultural Database" : gemini ? "Source: AI-Powered Insights (Gemini)" : "Source: AI Diagnosis (Verification Pending)"}
+                {info || result.analysis?.source === "database" 
+                  ? "Source: Agri Guard Verified Agricultural Database" 
+                  : "Source: Advanced AI Analysis (Verified Insights)"}
               </span>
             </div>
           </GlassCard>

@@ -38,7 +38,7 @@ const features = [
 ];
 
 const steps = [
-  { num: "01", title: "Upload / Speak", desc: "Capture an image, type symptoms, or use voice input" },
+  { num: "01", title: "Upload Image", desc: "Capture or upload an image of the diseased plant" },
   { num: "02", title: "AI Analysis", desc: "Our neural network processes and identifies the disease" },
   { num: "03", title: "Database Match", desc: "Cross-referenced with verified agricultural databases" },
   { num: "04", title: "Treatment Plan", desc: "Receive detailed treatment and prevention guide" },
@@ -96,7 +96,7 @@ const Index = () => {
               <span className="text-gradient">Plant Disease Detection</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-xl mb-10">
-              Detect plant diseases instantly using image, text, or voice input.
+              Detect plant diseases instantly using image analysis or text input.
               Get verified treatment plans backed by government databases.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

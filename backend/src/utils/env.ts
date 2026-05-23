@@ -21,5 +21,7 @@ export const env = {
   openRouterModel: process.env.OPENROUTER_MODEL ?? "meta-llama/llama-3.1-8b-instruct",
   deepseekApiKey: process.env.DEEPSEEK_API_KEY,
   plantIdApiKey: process.env.PLANT_ID_API_KEY,
+  roboflowApiKey: process.env.ROBOFLOW_API_KEY,
+  roboflowModelUrl: process.env.ROBOFLOW_MODEL_URL,
 };
 
